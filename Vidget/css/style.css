@@ -99,7 +99,7 @@ body {
 .vidget__close {
     width: 24px;
     height: 24px;
-    margin: auto;
+    margin-left: auto;
     align-self: flex-start;
     background-color: transparent;
     border: none;
@@ -167,7 +167,16 @@ body {
     border: 1px solid #043353;
     border-radius: 8px;
     padding: 30px 21px;
-    position: relative;
+}
+
+
+.form__group {
+
+    
+}
+
+.form__group--btn {
+    display: flex;
 }
 
 
@@ -180,6 +189,11 @@ body {
     padding-bottom: 12px;
     padding-left: 15px;
     width: 100%;
+}
+
+
+input[type="text"] {
+    border-radius: 8px 0 0 8px;
 }
 
 
@@ -197,9 +211,6 @@ input[type="email"] {
     text-transform: uppercase;
     padding: 16px 24px 25px;
     border-radius: 0px 8px 8px 0px;
-    position: absolute;
-    bottom: 30px;
-    right: 20px;
 }
 
 
