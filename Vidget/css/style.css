@@ -33,6 +33,8 @@ body {
     bottom: 0;
     width: 420px;
     box-shadow: -4px 0px 4px var(--vidget-shadow);
+    overflow: auto;
+    
 }
 
 .vidget__header {
@@ -116,8 +118,7 @@ body {
 .vidget__content {
     background-color: var(--secondary-bg) ;
     padding: 32px 24px;
-    /* margin-bottom: 33px; */
-    margin-bottom: 16px;
+    /* margin-bottom: 24px; */
     
     
 }
@@ -127,6 +128,7 @@ body {
     padding: 20px 22px;
     background-color: var(--secondary-color) ;
     border-radius: 8px;
+    margin-bottom: 16px;
 }
 
 .vidget__dialog {
@@ -145,6 +147,9 @@ body {
     line-height: 32px;
     font-weight: 700;
     margin-bottom: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .vidget__dialog-date {
@@ -167,6 +172,7 @@ body {
     border: 1px solid #043353;
     border-radius: 8px;
     padding: 30px 21px;
+    margin-bottom: 32px;
 }
 
 
