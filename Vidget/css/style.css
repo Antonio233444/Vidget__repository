@@ -129,6 +129,8 @@ body {
     background-color: var(--secondary-color) ;
     border-radius: 8px;
     margin-bottom: 16px;
+    height: 476px;
+    overflow: auto;
 }
 
 .vidget__dialog {
